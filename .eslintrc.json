@@ -14,10 +14,6 @@
   },
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
-    "no-plusplus": "off",
-    "no-continue": "off",
-    "no-param-reassign": "off",
-    "class-methods-use-this": "off",
-    "no-alert": "off"
+    "no-console": "off"
   }
 }

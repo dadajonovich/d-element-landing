@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  width: toRem(1200);
+  height: toRem(48);
+}
+
+.burger {
+  position: relative;
+
+  width: toRem(32);
+  height: toRem(32);
+  &::before {
+    position: absolute;
+    top: 0;
+
+    width: toRem(30);
+    height: toRem(2);
+
+    content: '';
+
+    background-color: black;
+  }
+  &::after {
+    position: absolute;
+    bottom: 0;
+
+    width: toRem(30);
+    height: toRem(2);
+
+    content: '';
+
+    background-color: black;
+  }
+}
