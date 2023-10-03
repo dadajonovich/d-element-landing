@@ -1,8 +1,19 @@
 .header {
+  position: absolute;
+  z-index: 10;
+
   display: flex;
   justify-content: space-between;
-  width: torem(1200);
-  height: torem(48);
+
+  width: 100%;
+
+  // width: torem(1200);
+  // height: torem(48);
+  padding: torem(40) torem(83);
+
+  &__logo {
+    width: torem(48);
+  }
 }
 
 .burger {
