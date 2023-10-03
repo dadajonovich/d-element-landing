@@ -1,35 +1,35 @@
 .header {
   display: flex;
   justify-content: space-between;
-
-  width: toRem(1200);
-  height: toRem(48);
+  width: torem(1200);
+  height: torem(48);
 }
 
 .burger {
   position: relative;
+  width: torem(32);
+  height: torem(32);
 
-  width: toRem(32);
-  height: toRem(32);
   &::before {
+    content: '';
+
     position: absolute;
     top: 0;
 
-    width: toRem(30);
-    height: toRem(2);
-
-    content: '';
+    width: torem(30);
+    height: torem(2);
 
     background-color: black;
   }
+
   &::after {
+    content: '';
+
     position: absolute;
     bottom: 0;
 
-    width: toRem(30);
-    height: toRem(2);
-
-    content: '';
+    width: torem(30);
+    height: torem(2);
 
     background-color: black;
   }
