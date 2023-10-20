@@ -1,15 +1,14 @@
 .header {
-  position: absolute;
-  z-index: 10;
+  position: fixed;
+  top: torem(40);
+
+  // left: 50%;
+  // transform: translateX(-50%);
 
   display: flex;
   justify-content: space-between;
 
-  width: 100%;
-
-  // width: torem(1200);
-  // height: torem(48);
-  padding: torem(40) torem(83);
+  width: calc($header-width * 100% / $main-width);
 
   &__logo {
     width: torem(48);
