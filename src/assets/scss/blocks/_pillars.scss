@@ -1,0 +1,37 @@
+.pillars {
+  display: grid;
+  grid-template-areas: 'pillars-right pillars-right';
+  grid-template-columns: [start] 1fr [line1] 1fr [end];
+  gap: torem(100);
+
+  padding: torem(190) torem(212);
+
+  &-left {
+    display: grid;
+    grid-template: 0.25fr 0.7fr / 1fr;
+    grid-template-areas:
+      'pillars__title'
+      'card-1';
+  }
+
+  &-right {
+    display: grid;
+    grid-template-areas:
+      'card-2'
+      'card-3';
+    grid-template-columns: 1fr;
+    gap: torem(100);
+  }
+
+  &__title {
+    grid-area: 'pillars__title';
+
+    width: 100%;
+
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #316099;
+    letter-spacing: 1.8px;
+  }
+}
