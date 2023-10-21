@@ -1,6 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 
   max-width: torem(380);
@@ -13,7 +14,6 @@
   &__img {
     overflow: visible;
     max-height: torem(132);
-    margin: 0 auto;
   }
 
   &__subtitle {
@@ -43,6 +43,7 @@
     gap: torem(28);
     align-items: center;
 
+    width: 100%;
     margin-top: torem(32);
 
     font-size: 14px;
