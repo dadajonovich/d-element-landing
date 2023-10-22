@@ -1,5 +1,121 @@
 .footer {
-  width: 1200px;
+  width: 92%;
   background: #316099;
   border-top-right-radius: torem(200);
+
+  &__info {
+    display: flex;
+    gap: torem(160);
+    align-items: center;
+    justify-content: space-between;
+
+    padding: torem(91) torem(198) torem(64) torem(212);
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    gap: torem(32);
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #fff;
+    letter-spacing: 1.8px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: 0.8px;
+
+    opacity: 0.6;
+  }
+
+  &__button {
+    display: inline-block;
+
+    padding: torem(15) torem(75);
+
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.64px;
+    white-space: nowrap;
+  }
+
+  &__hr {
+    width: 84%;
+    opacity: 0.4;
+    stroke: #fff;
+    stroke-width: 1px;
+  }
+
+  &__bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: torem(100);
+    padding: torem(97) torem(320) torem(64) torem(212);
+  }
+
+  &__contacts li {
+    &:not(:first-child) {
+      margin-top: torem(24);
+    }
+  }
+
+  &__logo {
+    display: flex;
+    gap: torem(16);
+    align-items: center;
+
+    &-text {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 46px;
+      color: #fff;
+      letter-spacing: 0.56px;
+    }
+  }
+
+  &__pretitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  &__list {
+    margin-top: torem(32);
+  }
+
+  &__list-item {
+    display: flex;
+    gap: torem(16);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+
+    &:not(:first-child) {
+      margin-top: torem(16);
+    }
+  }
+}
+
+.copyright {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  letter-spacing: 0.8px;
+
+  opacity: 0.4;
 }

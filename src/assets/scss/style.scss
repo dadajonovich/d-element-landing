@@ -20,6 +20,22 @@
 }
 
 html {
+  @include respond(sm) {
+    // font-size:
+  }
+
+  @include respond(md) {
+    // font-size:
+  }
+
+  @include respond(lg) {
+    // font-size:
+  }
+
+  @include respond(xl) {
+    // font-size:
+  }
+
   font-family: Gilroy, sans-serif;
 }
 
