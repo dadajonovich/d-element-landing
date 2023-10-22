@@ -62,8 +62,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: torem(100);
     margin-top: torem(96);
-
-    // padding: torem(97) torem(320) torem(64) torem(212);
   }
 
   &__contacts li {
@@ -99,6 +97,8 @@
   }
 
   &__list-item {
+    cursor: pointer;
+
     display: flex;
     gap: torem(16);
 

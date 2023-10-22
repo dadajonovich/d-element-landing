@@ -1,8 +1,18 @@
 .button {
+  cursor: pointer;
+
   max-width: torem(220);
   max-height: torem(56);
 
   background: $button-color;
   border-radius: 10px;
   box-shadow: 5px 10px 20px 0 rgb(53 110 173 / 20%);
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    transform: translateY(3px);
+  }
 }

@@ -39,6 +39,8 @@
   }
 
   &__more {
+    cursor: pointer;
+
     display: flex;
     gap: torem(28);
     align-items: center;
@@ -51,6 +53,16 @@
     line-height: 30px;
     color: #5a98d0;
     letter-spacing: 0.7px;
+
+    &:hover {
+      .card__arrow {
+        transform: translateX(torem(15));
+      }
+    }
+  }
+
+  &__arrow {
+    transition: transform 0.5s;
   }
 }
 
