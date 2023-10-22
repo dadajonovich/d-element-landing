@@ -1,11 +1,13 @@
 .header {
   position: fixed;
+  z-index: 10;
   top: torem(40);
 
   // left: 50%;
   // transform: translateX(-50%);
 
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   width: calc($header-width * 100% / $main-width);
@@ -26,7 +28,7 @@
     position: absolute;
     top: 0;
 
-    width: torem(30);
+    width: torem(32);
     height: torem(2);
 
     background-color: black;
@@ -38,9 +40,55 @@
     position: absolute;
     bottom: 0;
 
-    width: torem(30);
+    width: torem(32);
     height: torem(2);
 
     background-color: black;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  span {
+    position: absolute;
+    top: torem(16);
+
+    width: torem(32);
+    height: torem(2);
+
+    background-color: black;
+  }
+
+  &_active {
+    &::before {
+      content: '';
+
+      position: absolute;
+      top: 45%;
+      transform: rotate(45deg);
+
+      width: torem(32);
+      height: torem(2);
+
+      background-color: black;
+    }
+
+    &::after {
+      content: '';
+
+      position: absolute;
+      bottom: 50%;
+      transform: rotate(-45deg);
+
+      width: torem(32);
+      height: torem(2);
+
+      background-color: black;
+    }
+
+    span {
+      display: none;
+    }
   }
 }
