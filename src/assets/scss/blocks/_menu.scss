@@ -1,0 +1,18 @@
+.menu {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  visibility: hidden;
+
+  transition: backdrop-filter 0.5s;
+
+  &_active {
+    visibility: visible;
+    backdrop-filter: blur(1rem);
+  }
+}

@@ -1,0 +1,54 @@
+.modal {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  visibility: visible;
+  backdrop-filter: blur(1rem);
+
+  transition: backdrop-filter 0.5s;
+
+  &-card {
+    width: 54rem;
+    height: 80rem;
+    padding: 5.6rem;
+
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 5px 10px 50px 0 rgb(16 112 177 / 20%);
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #1f3f68;
+    letter-spacing: 0.8px;
+  }
+
+  label {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px; /* 187.5% */
+    color: #1f3f68;
+    letter-spacing: 0.64px;
+
+    opacity: 0.8;
+  }
+
+  input {
+    width: 100%;
+    opacity: 0.4;
+    border: 1px solid #356ead;
+    border-radius: 10px;
+  }
+}

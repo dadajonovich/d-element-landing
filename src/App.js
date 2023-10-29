@@ -1,11 +1,11 @@
-const menuItems = ['Home', 'About us', 'Category'];
-
 class App {
   constructor() {
     const burger = document.querySelector('.burger');
-    burger.addEventListener('click', () =>
-      burger.classList.toggle('burger_active'),
-    );
+    const blur = document.querySelector('.menu');
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('burger_active');
+      blur.classList.toggle('menu_active');
+    });
   }
 }
 
