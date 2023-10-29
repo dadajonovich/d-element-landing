@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   z-index: 10;
-  top: torem(40);
+  top: 4rem;
 
   // left: 50%;
   // transform: translateX(-50%);
@@ -13,14 +13,14 @@
   width: calc($header-width * 100% / $main-width);
 
   &__logo {
-    width: torem(48);
+    width: 4.8rem;
   }
 }
 
 .burger {
   position: relative;
-  width: torem(32);
-  height: torem(32);
+  width: 3.2rem;
+  height: 3.2rem;
 
   &::before {
     content: '';
@@ -28,8 +28,8 @@
     position: absolute;
     top: 0;
 
-    width: torem(32);
-    height: torem(2);
+    width: 3.2rem;
+    height: 0.2rem;
 
     background-color: black;
   }
@@ -40,8 +40,8 @@
     position: absolute;
     bottom: 0;
 
-    width: torem(32);
-    height: torem(2);
+    width: 3.2rem;
+    height: 0.2rem;
 
     background-color: black;
   }
@@ -52,10 +52,10 @@
 
   span {
     position: absolute;
-    top: torem(16);
+    top: 1.6rem;
 
-    width: torem(32);
-    height: torem(2);
+    width: 3.2rem;
+    height: 0.2rem;
 
     background-color: black;
   }
@@ -68,8 +68,8 @@
       top: 45%;
       transform: rotate(45deg);
 
-      width: torem(32);
-      height: torem(2);
+      width: 3.2rem;
+      height: 0.2rem;
 
       background-color: black;
     }
@@ -81,8 +81,8 @@
       bottom: 50%;
       transform: rotate(-45deg);
 
-      width: torem(32);
-      height: torem(2);
+      width: 3.2rem;
+      height: 0.2rem;
 
       background-color: black;
     }

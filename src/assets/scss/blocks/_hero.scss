@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  padding: torem(190) torem(212);
+  padding: 19rem 21.2rem;
   background: linear-gradient(
     0deg,
     rgb(152 195 232 / 20%) 8.84%,
@@ -9,19 +9,19 @@
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
 
   &__title {
-    max-width: torem(600);
-    font-size: torem(64);
+    max-width: 60rem;
+    font-size: 6.4rem;
     font-weight: 700;
-    line-height: 74px;
+    line-height: 7.4rem;
   }
 
   &__description {
-    max-width: torem(425);
-    margin-top: torem(32);
+    max-width: 42rem;
+    margin-top: 3.2rem;
 
     font-size: 16px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 2.6rem;
     color: #1f3f68;
     text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
     letter-spacing: 0.8px;
@@ -34,11 +34,11 @@
   &__button {
     display: inline-block;
 
-    margin-top: torem(72);
-    padding: torem(15) torem(48);
+    margin-top: 7.2rem;
+    padding: 1.5rem 4.8rem;
 
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
     color: #fff;
     letter-spacing: 0.64px;
   }
@@ -48,11 +48,11 @@
 
     position: absolute;
     z-index: -10;
-    right: torem(24);
-    bottom: torem(55);
+    right: 2.4rem;
+    bottom: 5.5rem;
 
     // height: 75%;
-    width: torem(670);
+    width: 67rem;
     height: auto;
   }
 }

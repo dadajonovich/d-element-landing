@@ -1,14 +1,14 @@
 .info-client {
   background: #5a98d0;
-  border-top-left-radius: torem(200);
+  border-top-left-radius: 20rem;
 
   &__prefooter {
-    padding: torem(96) torem(212);
+    padding: 9.6rem 21.2rem;
   }
 
   &__header {
     display: flex;
-    gap: torem(96);
+    gap: 9.6rem;
     align-items: center;
     justify-content: space-between;
   }
@@ -16,17 +16,17 @@
   &__title {
     flex-shrink: 0.5;
 
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 600;
-    line-height: 46px;
+    line-height: 4.6rem;
     color: #fff;
     letter-spacing: 1.8px;
   }
 
   &__description {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 2.6rem;
     color: #fff;
     letter-spacing: 0.8px;
 
@@ -34,7 +34,7 @@
   }
 
   &__more {
-    margin-top: 112px;
+    margin-top: 11.2rem;
   }
 
   &__grid {
@@ -44,9 +44,9 @@
     justify-content: center;
 
     &-item {
-      padding: torem(38);
+      padding: 3.8rem;
 
-      font-size: torem(18);
+      font-size: 1.8rem;
       font-weight: 600;
       color: #f2f2f2;
       text-align: center;
